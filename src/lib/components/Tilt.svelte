@@ -18,11 +18,11 @@
   }
 </script>
 
-<div class="wrapper" on:mousemove={handleMouseMove} on:mouseleave={handleMouseReset}>
+<div class="wrapper w-full h-full" on:mousemove={handleMouseMove} on:mouseleave={handleMouseReset}>
   <div
     bind:this={tilt}
     style="--tilt-amount:{amount}"
-    class="tilt transition-transform duration-200 hover:duration-0"
+    class="tilt w-full h-full transition-transform duration-200 hover:duration-0"
   >
     <slot />
   </div>

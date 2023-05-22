@@ -22,13 +22,15 @@ export default {
         kilamanjaro: '#1c0402',
         woodsmoke: '#090b0a',
         fade: '#00000099',
+        fader: '#00000028',
       },
       fontFamily: {
-        sans: ['URW Gothic', ...fontFamily.sans],
+        sans: ['Jost', ...fontFamily.sans],
       },
       dropShadow: ({ theme }) => ({
         'coffee-bean': `-0.1875rem 0.0625rem 0 ${theme('colors.coffee-bean')}`,
         roti: `-0.1875rem 0.0625rem 0 ${theme('colors.roti')}`,
+        fader: `-0.1875rem 0.0625rem 0 ${theme('colors.fader')}`,
       }),
       skew: {
         15: '15deg',

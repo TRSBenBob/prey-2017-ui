@@ -1,5 +1,11 @@
-@import './lib/styles/urw-gothic.postcss';
+/* @import './lib/styles/urw-gothic.postcss'; */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    font-feature-settings: 'ss01';
+  }
+}
