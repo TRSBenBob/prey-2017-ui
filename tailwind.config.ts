@@ -21,6 +21,7 @@ export default {
         'coffee-bean': '#341213',
         kilamanjaro: '#1c0402',
         woodsmoke: '#090b0a',
+        fade: '#00000099',
       },
       fontFamily: {
         sans: ['URW Gothic', ...fontFamily.sans],

@@ -9,12 +9,18 @@
     <div
       class="relative flex flex-row gap-12 px-8 py-6 border border-cape-cod rounded-t-[4rem] overflow-hidden"
     >
-      <div class="absolute inset-0 bg-gradient-radial from-rob-roy opacity-5 pointer-events-none" />
+      <div
+        class="absolute inset-0 bg-gradient-radial from-rob-roy opacity-[0.075] pointer-events-none"
+      />
 
-      <div>
+      <div class="relative">
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-transparent to-fade z-10 pointer-events-none"
+        />
+
         <ul class="flex flex-col gap-1 w-[24rem] pl-6 text-white text-[24px] overflow-y-scroll">
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5 bg-fixed"
           >
             <span class="drop-shadow-coffee-bean">Apex Tendril</span>
             <span
@@ -28,7 +34,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Coral Node</span>
             <span
@@ -36,7 +42,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Medical Operator</span>
             <span
@@ -44,7 +50,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Morgan Yu</span>
             <span
@@ -52,7 +58,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Etheric Phantom</span>
             <span
@@ -60,7 +66,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Poltergeist</span>
             <span
@@ -68,7 +74,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Greater Mimic</span>
             <span
@@ -76,7 +82,7 @@
             />
           </li>
           <li
-            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-10"
+            class="relative px-3 py-5 border border-picton-blue border-opacity-20 bg-picton-blue bg-opacity-5"
           >
             <span class="drop-shadow-coffee-bean">Thermal Phantom</span>
             <span
